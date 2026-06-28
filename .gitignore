@@ -1,0 +1,77 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+venv/
+# Environment Variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ChromaDB
+chroma_db/
+chromadb/
+*.sqlite3
+
+# Uploaded / Generated Data
+data/books/*.pdf
+data/chunks/
+data/cache/
+data/*
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Python Cache
+*.pyo
+*.pyd
+
+# Secrets
+secrets.json
+credentials.json
+
+# Node (if frontend is included)
+node_modules/
+
+# Frontend Build (if applicable)
+dist/
+build/
