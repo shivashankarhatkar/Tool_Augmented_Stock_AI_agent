@@ -11,7 +11,7 @@ A query is routed to one of four paths — `tool`, `rag`, `both`, or `direct` �
 node, optionally planned into concrete tool calls, executed, retrieved, and synthesized into
 a final cited answer.
 
-````````````````````````````````````````````````
+``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 router → planner → tool → rag → synthesis
    │         │                    ▲
    │         └────────────────────┘ (tool-only route)
