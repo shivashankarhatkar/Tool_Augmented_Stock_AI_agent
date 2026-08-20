@@ -36,7 +36,7 @@ cp .env.example .env
 ```
 
 | Variable | Required for | Notes |
-|---|---|---|
+|---|---|---|---|
 | `LLM_PROVIDER` | Core agent | `openai` or `gemini` |
 | `OPENAI_API_KEY` / `GEMINI_API_KEY` | Core agent | Only need the one matching `LLM_PROVIDER` |
 | `ALPHA_VANTAGE_API_KEY` | `alpha_vantage` tool | Free tier at alphavantage.co |
