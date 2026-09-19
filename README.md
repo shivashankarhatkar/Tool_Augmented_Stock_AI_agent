@@ -2,7 +2,7 @@
 
 A LangGraph-orchestrated agent that answers financial questions by combining:
 
-1. **Live tools** — Alpha Vantage, Yahoo Finance, NewsAPI, SerpAPI, and a safe calculator.
+1. **Live tools** — Alpha Vantage, Yahoo Finance, NewsAPI, SerpAPI and a safe calculator.
 2. **RAG over investing books** — *The Intelligent Investor*, *One Up On Wall Street*,
    *Common Stocks and Uncommon Profits* (you supply the PDFs).
 3. **An LLM router/planner/synthesizer** — OpenAI or Gemini, swappable via config.
