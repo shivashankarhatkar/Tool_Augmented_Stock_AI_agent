@@ -1,6 +1,6 @@
 # Financial Research Agent
 
-A LangGraph-orchestrated agent that answers financial questions by combining:
+A LangGraph-orchestrated agent that answers financial questions by combining :
 
 1. **Live tools** — Alpha Vantage, Yahoo Finance, NewsAPI, SerpAPI and a safe calculator.
 2. **RAG over investing books** — *The Intelligent Investor*, *One Up On Wall Street*,
